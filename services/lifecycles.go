@@ -2,8 +2,8 @@ package services
 
 type lifecycle int
 
-const(
-	Transient lifecycle = iota
-	Singleton
-	Scoped
+const (
+    Transient lifecycle = iota
+    Singleton
+    Scoped
 )

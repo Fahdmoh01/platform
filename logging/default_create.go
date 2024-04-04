@@ -1,10 +1,10 @@
 package logging
 
 import (
-	"log"
-	"os"
-	"platform/config"
-	"strings"
+    "log"
+    "os"
+    "strings"
+    "platform/config"
 )
 
 func NewDefaultLogger(cfg config.Configuration) Logger {
